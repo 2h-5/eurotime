@@ -36,7 +36,7 @@ npm run start
 
 4. After the backend runs successfully, **you will see these outputs** in the terminal:
 
-<img src="client/src/screenshot1a.png" width="480" />
+<img src="client/src/screenshot1a.png" width="360" />
 
 5. **Enter the link** from the outputs (In my case, it is "`http://localhost:3000`") **in your browser**, then you can finally play around with my app.
 
@@ -58,12 +58,12 @@ Compared to my original project, what I have further developed/fixed are:
 
 ### Initial Stage
 
-<img src="client/src/screenshot1b.png" width="480" />
+<img src="client/src/screenshot1b.png" width="720" />
 
 ### Searching Functionality
 
-<img src="client/src/screenshot1c.png" width="480" /> <img src="client/src/screenshot1e.png" width="480" />
+<img src="client/src/screenshot1c.png" width="720" /> <img src="client/src/screenshot1e.png" width="720" />
 
 ### Listing Functionality
 
-<img src="client/src/screenshot1d.png" width="480" /> <img src="client/src/screenshot1f.png" width="480" />
+<img src="client/src/screenshot1d.png" width="720" /> <img src="client/src/screenshot1f.png" width="720" />
