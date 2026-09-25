@@ -29,18 +29,25 @@ git clone https://github.com/2h-5/eurotime.git
 cd **location-you-store-the-app-folder**/eurotime/server
 ```
 
-3. **Run the backend** in the terminal using this command (You have to install NPM following this [guideline](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).):
+3. Run this command to install the required dependencies on the backend: (You have to install NPM following this [guideline](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).)
+```
+npm install
+```
+
+4. **Run the backend** in the terminal using this command:
 ```
 npm run start
 ```
 
-4. After the backend runs successfully, **you will see these outputs** in the terminal:
+5. After the backend runs successfully, **you will see these outputs** in the terminal:
 
 <img src="client/src/screenshot1a.png" width="360" />
 
-5. **Enter the link** from the outputs (In my case, it is "`http://localhost:3000`") **in your browser**, then you can finally play around with my app.
+6. **Enter the link** from the outputs (In my case, it is "`http://localhost:3000`") **in your browser**, then you can finally play around with my app.
 
-6. Once you finished playing this app, you have to **go back to the terminal**, and **press `Ctrl + C`** in order to close the backend.
+7. Once you finished playing this app, you have to **go back to the terminal**, and **press `Ctrl + C`** in order to close the backend.
+
+8. Repeat **Step 2**, **Step 4 ~ 7** for the next time you want to try this app.
 
 ## Stories Behind the Work 📠
 
