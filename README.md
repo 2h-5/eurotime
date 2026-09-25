@@ -29,7 +29,7 @@ git clone https://github.com/2h-5/eurotime.git
 cd **location-you-store-the-app-folder**/eurotime/server
 ```
 
-3. Run this command to install the required dependencies on the backend: (You have to install NPM following this [guideline](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).)
+3. Run this command to **install** the **required dependencies** on the backend: (You have to install NPM following this [guideline](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).)
 ```
 npm install
 ```
@@ -55,7 +55,7 @@ The early version of this prototype was my second last project from one of my un
 
 The course taught theoretical contents about how to build full stack applications. This project is applying those theoratical portion into application, where the coding part, especially server-side scripting, was self-learned.
 
-Compared to my original project, what I have further developed/fixed are:
+Compared to the early version, what I have **further developed** are:
 
 1. Make side bar to be resizable.
 2. Fix errors on fetching destinations from the dataset.
