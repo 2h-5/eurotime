@@ -62,8 +62,12 @@ Compared to my original project, what I have further developed/fixed are:
 
 ### Searching Functionality
 
-<img src="client/src/screenshot1c.png" width="720" /> <img src="client/src/screenshot1e.png" width="720" />
+<img src="client/src/screenshot1c.png" width="720" /> 
+
+<img src="client/src/screenshot1e.png" width="720" />
 
 ### Listing Functionality
 
-<img src="client/src/screenshot1d.png" width="720" /> <img src="client/src/screenshot1f.png" width="720" />
+<img src="client/src/screenshot1d.png" width="720" /> 
+
+<img src="client/src/screenshot1f.png" width="720" />
