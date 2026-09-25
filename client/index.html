@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EuroTime</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<!-- @author 🆉. Sūn 2026 -->
+<body>
+  <div id="map"></div>
+  <div id="sidebar">
+    <h1>EuroTime</h1>
+    <!-- @author Z. Sūn -->
+    <section class="search-container">
+      <h2>Search Places</h2>
+      <div class="search-controls">
+        <input type="text" id="searchInput" placeholder="Enter search term">
+        <select id="searchField">
+          <option value="Destination">Name</option>
+          <option value="Region">Region</option>
+          <option value="Country">Country</option>
+        </select>
+        <select id="resultsLimit">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="50">50</option>
+        </select>
+        <button id="searchButton">Search</button>
+      </div>
+    </section>
+    <!-- @author 🆉. 2026 -->
+    <section id="searchResults"></section>
+    <!-- @author 🆉. Sūn -->
+    <section class="list-container">
+      <h2>My Favourite Lists</h2>
+      <div class="list-controls">
+        <input type="text" id="listName" placeholder="Enter list name">
+        <button id="createListButton">Create List</button>
+        <select id="listSelect"></select>
+        <button id="deleteListButton">Delete List</button>
+      </div>
+    </section>
+    <!-- @author 2h-5 -->
+    <section id="listResults"></section>
+  </div>
+  <!-- @author github.com/2h-5 -->
+  <script defer src="script.js"></script>
+</body>
+</html>
