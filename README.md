@@ -2,22 +2,22 @@
 
 ## Descriptions 📋
 
-**EuroTime** is a European **world map system** that can track your footsteps based on listing every flagged city.
+**EuroTime** is a **mapping application** that can let users to **access detailed information** about travel destinations **in Europe**, users can also **create collections** of their **favourite destinations**.
 
-This is the `first` prototype of **EuroTime**, which I implement a *customized* backend using [**Express**](https://expressjs.com/) for **backend framework**, [**OSM**](https://www.openstreetmap.org/) for **map database**, and a **comprehensive** European **destinations dataset** provided from the course instructor, which was obtained from [**Kaggle**](https://www.kaggle.com/datasets/faizadani/european-tour-destinations-dataset).
+This is the `first` prototype of **EuroTime**, which I implemented a ***handcrafted*** **server API** that was using [**Express**](https://expressjs.com/) for **backend framework**, [**OSM**](https://www.openstreetmap.org/) for **map database**, and a **comprehensive** European **destinations dataset** provided from the course instructor, which was obtained from [**Kaggle**](https://www.kaggle.com/datasets/faizadani/european-tour-destinations-dataset).
 
 ## Features ⚙
 
-1. Able to **search results** based on name of the **city, region, or country**.
-2. Able to **select how many** search results to **display** in maximum.
-3. Display results as **table format**, and able to **see details** of each destination.
-4. Able to **record** your chosen cities as **lists**, and display records as **table format**.
-5. Able to **resize** the **side bar**, which contains searching and listing features.
-6. Add **input sanitization** for searching and creating list names.
+1. Users can **search results** based on name of the **city, region, or country**.
+2. Users can **select how many** search results to **display** in maximum.
+3. Users can see results as **table format**, and users can choose to **see details** for each destination.
+4. Users can **add** their favourite cities as **list collections**, and users can see collections as **table format**.
+5. Users can **resize** the **side bar** if they want to **see all** the **table columns thoroughly**.
+6. **Input sanitization** is enabled for searching and creating list names, this **prevents** users to type **special characters** in case of **causing issues** for the backend.
 
 ## Installation 📥
 
-###### Unfortunately, GitHub Pages supports web deployment for frontend only, so I cannot deploy this prototype online as it contains a backend. As a result, you have to follow the steps I provided below carefully in order to try this application...
+###### Unfortunately, GitHub Pages does not support web deployment for backend, so I cannot deploy this application online `(at no cost)`. Thus, if you want to try and test out my work, you have to follow the steps I provided below carefully...
 
 1. **Download the zip file** (`<> Code → Download ZIP`) to the location you wish and **unzip** it (`depends on what compression software you use`), ***or*** use this git command to **clone this repository** if you have [**Git**](https://git-scm.com/install/) installed:
 ```
@@ -53,13 +53,14 @@ npm run start
 
 The early version of this prototype was my second last project from one of my university courses —— Web Technologies.
 
-The course taught theoretical contents about how to build full stack applications. This project is applying those theoratical portion into application, where the coding part, especially server-side scripting, was self-learned.
+The course taught theoretical contents about how to build full stack applications. This project is to *apply those theoratical portions to make a real application*, where the **coding part**, especially server-side scripting like **ReSTful APIs** and **backend storage**, was self-learned and implemented.
 
-Compared to the early version, what I have **further developed** are:
+Compared to the early version, what I have **further developed** for this version are:
 
-1. Make side bar to be resizable.
-2. Fix errors on fetching destinations from the dataset.
-3. Add different pop-up messages to handle different scenarios.
+1. Make the side bar to be resizable.
+2. Update the layout of the side bar to be more intuitive.
+3. Fix errors on fetching destinations from the dataset.
+4. Add different pop-up messages to handle different scenarios.
 
 ## Screenshots 📸
 
