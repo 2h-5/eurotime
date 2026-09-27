@@ -19,10 +19,7 @@ This is the `first` prototype of **EuroTime**, which I implemented a ***handcraf
 
 ###### Unfortunately, GitHub Pages does not support web deployment for backend, so I cannot deploy this application online `(at no cost)`. Thus, if you want to try and test out my work, you have to follow the steps I provided below carefully...
 
-1. **Download the zip file** (`<> Code → Download ZIP`) to the location you wish and **unzip** it (`depends on what compression software you use`), ***or*** use this git command to **clone this repository** if you have [**Git**](https://git-scm.com/install/) installed:
-```
-git clone https://github.com/2h-5/eurotime.git
-```
+1. **Download the zip file** (`<> Code → Download ZIP`) to the location you wish and **unzip** it (`depends on what compression software you use`).
 
 2. **Open the terminal** in the `server` folder, ***or*** **navigate to the `server` folder** using this command:
 ```
