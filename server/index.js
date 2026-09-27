@@ -13,7 +13,7 @@ const mongoose = require("mongoose");
 const port = 3000;
 const xlsx = require('xlsx');
 const csv = require('csv-parser');
-
+/* @author 🆉. Sūn 2026 */
 const session = require("express-session");
 const cookieParser = require("cookie-parser");
 
@@ -112,7 +112,7 @@ app.post("/uploadImage", async (req, res) => {
             .send(createErrorResponse(`Can not download image from ${url}`));
     }
 });
-
+/* @author Z. Sūn 2026 */
 app.get("/menus", async (req, res) => {
     try {
         const menus = [
@@ -194,7 +194,7 @@ app.get("/people", async (req, res) => {
         res.status(500).json({meta: {status: 500, msg: "Failed to obtain personnel list"}, error: error});
     }
 });
-
+/* @author 2h-5 */
 app.post("/people", async (req, res) => {
     try {
         const newPerson = new People(req.body);
@@ -274,7 +274,7 @@ app.post("/submitUser", async (req, res) => {
                 break
             }
         }
-
+/* 🆉. */
         if (user != null) {
             if (type == 1) {
                 sheet['E' + (user.id + 1)].v = 'admin'
@@ -363,7 +363,7 @@ app.post("/login", async (req, res) => {
         });
     }
 });
-
+/* 🆉. Sun 2026 */
 app.post("/updatePwd", async (req, res) => {
     let {id, opassword, password} = req.body;
     id = String(id);
@@ -452,7 +452,7 @@ app.post('/getUser', async (req, res) => {
         res.status(500).json({meta: {status: 500, msg: "Failed to get the task list."}});
     }
 });
-
+/* @author Sūn 2026 */
 app.get('/getAreas', async (req, res) => {
     try {
         const workBook = xlsx.readFile('./data/areaSelect.xlsx')
@@ -544,7 +544,7 @@ app.get('/api/countries', (req, res) => {
     const countries = [...new Set(destinations.map(dest => dest.Country))];
     res.json(countries);
 });
-
+/* github.com/2h-5 */
 app.get('/api/search', async (req, res) => {
     const {field, pattern, n} = req.query;
     const sanitizedPattern = sanitizeInput(pattern);
@@ -643,7 +643,7 @@ app.get('/api/flagList/:name/:flag', (req, res) => {
         res.status(404).json({error: 'List not found...'});
     }
 });
-
+/* @author 🆉. Sūn 2026 */
 app.get('/api/lists/:name/details', (req, res) => {
     const {name} = req.params;
     const sanitizedName = sanitizeInput(name);
@@ -745,7 +745,7 @@ app.post('/api/cities', async (req, res) => {
         res.status(404).json([]);
     }
 });
-
+/* @author 🆉. Sūn 2026 */
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
 });
