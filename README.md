@@ -1,22 +1,39 @@
-# EuroTime (Prototype #2️⃣)
+---
+Title: EuroTime
+Author: Z. Sūn
+Description: 'Web-based mapping application for European travellers, with searching, listing and rating features. Map database from OSM and destination dataset from Kaggle.'
+Tags:
+  - AntD
+  - CSS
+  - Express
+  - HTML
+  - JavaScript
+  - MongoDB
+  - Node.js
+  - Vite
+---
+
+
+###### Belows are my instructions and notes for every user who is curious about my work and wants to know more.
+
+# EuroTime
 
 ## Descriptions 📋
 
 **EuroTime** is a **mapping application** that can let users to **access detailed information** about travel destinations **in Europe**, users can also **create collections and ratings** for their **favourite destinations**.
 
-This is the `second` prototype *(and tentatively the final version)* of **EuroTime**.
-
-On top of Prototype #1️⃣, I further developed **more functionalities** for both frontend and backend, which includes [**React**](https://react.dev/) for **frontend framework**, [**MongoDB**](https://www.mongodb.com/) for **storing user information**, [**AntD**](https://ant.design/) for **input validation**, and more!
+You can also check out the other `branches` in this repo, where they may have different source codes and descriptions showing how I built this app following the **MVP (Minimum Viable Product)** strategy towards the final version. *Every prototype is runnable*, but newer version will have **new features**, which was added based on **testing** and **refining**.
 
 ## Features ⚙
 
-###### All the features in Prototype #1️⃣ still exist, but the below features are new for Prototype #2️⃣:
-
-1. A **homepage** to introduce EuroTime to new users, **including navigation bar** on the top and sample policies on the bottom.
-2. **Login/register pages** for new users to get access to EuroTime, **updating password** is possible to choose in map page.
-3. A **separate page** for **searching** users' **favourite destinations** and **rating them**. (But users have to create a list and flag them to be public first!)
-4. Users can choose to **search** their **favourite destinations by [**Google**](https://www.google.com/)** instead of reading fetched details from the database.
-5. Users can try **admin roles** and access **admin's site manager** in order to **activate/deactivate** their personal account. (Admin account info is stored in `server/data/userinfo.xlsx`)
+1. A **homepage** to **introduce EuroTime** to new users, **including navigation bar** on the top and sample policies on the bottom.
+2. **Login/register pages** for new users to get access to EuroTime, users can **update** their **password** after logging in.
+3. Users can **search results** based on the name of the **destination, region, or country**.
+4. Users can **select how many** search results to **display** in maximum.
+6. Users can **add** their favourite destinations as **list collections** and **rate them**. (But users have to create a list and flag them to be public first!)
+7. Users can choose to **see details** of their chosen destinations **based on the database**, or **search** their favourite destinations **by [**Google**](https://www.google.com/)**.
+8. **Input sanitization** is enabled for searching and creating list names, this **prevents** users to type **special characters** in case of **causing issues** for the backend.
+9. Users can try **admin roles** and access **admin's site manager** in order to **activate/deactivate** their accounts. (Admin account info is stored in `server/data/userinfo.xlsx`)
 
 ## Installation 📥
 
@@ -70,15 +87,9 @@ npm run dev
 
 ## Stories Behind the Work 📠
 
-The early version of this prototype was my final project from one of my university courses —— Web Technologies.
+This is **the first React project** and **the first full stack app I developed** individually! The original work was based on my final project from one of my university courses —— Web Technologies, but I have **further developed** more features and **fixed** more errors on top of it.
 
-The course taught theoretical contents about how to build full stack applications. This project is to *apply the theoratical knowledge to make a real application*, both the **client-side** and **server-side scripting** was self-learned and developed.
-
-Compared to the early version, what I have **further developed** for this version are:
-
-1. **Enhance** the **visual effects** of the frontend to be more intuitive.
-2. Add different pop-up messages to **handle different scenarios**.
-3. **Apply password encryption** for the backend in case of security.
+> ##### I will **leave the rest of "stories"** for each prototype **under its related `branch`** for those who wants to know more about what I have achieved on building this full stack app, and what specifically I have further developed and fixed in each prototype compared to the original coursework.
 
 ## Screenshots 📸
 
