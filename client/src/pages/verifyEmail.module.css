@@ -1,0 +1,46 @@
+.login {
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: #ffffff;
+  min-height: calc(100vh - 5rem);
+}
+
+.form {
+  background-color: #bbbbbb;
+  border-radius: 1px;
+  padding: 2rem 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  width: 48rem;
+  margin: 8rem auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+  font-size: 18px;
+}
+
+.regBtn {
+  margin-left: 20px;
+  background-color: #9147e5;
+}
+
+.registerLink {
+  text-align: center;
+  width: 100%;
+}
+
+
+.linkColor {
+  color: #9147e5 !important;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  text-decoration: none;
+}
