@@ -1,7 +1,7 @@
 ---
 Title: EuroTime
 Author: Z. Sūn
-Description: 'Web-based mapping application for European travellers, with searching, listing and rating features. Map database from OSM and destination dataset from Kaggle.'
+Description: 'Web-based mapping application for European travellers, with searching, listing and rating features. Map database is from OSM and destination dataset is from Kaggle.'
 Tags:
   - AntD
   - CSS
