@@ -10,6 +10,7 @@ Tags:
   - JavaScript
   - MongoDB
   - Node.js
+  - React
   - Vite
 ---
 
